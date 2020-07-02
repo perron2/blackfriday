@@ -302,9 +302,9 @@ func link(p *Markdown, data []byte, offset int) (int, *Node) {
 
 	// skip any amount of whitespace or newline
 	// (this is much more lax than original markdown syntax)
-	for i < len(data) && isspace(data[i]) {
-		i++
-	}
+	//for i < len(data) && isspace(data[i]) {
+	//	i++
+	//}
 
 	// inline style link
 	switch {
